@@ -1,4 +1,4 @@
-" Adds line nimber
+" Adds line number
 set number
 
 " Ensure Vim uses filetype plugins
