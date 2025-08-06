@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ -z "$(which vim)" || -z "$(which vimtutor)" ]]; then
+	echo "Warning, looks like you don't have proper Vim installed."
+fi
+
+ln -sf "$PWD/.vimrc" "$HOME/.vimrc"

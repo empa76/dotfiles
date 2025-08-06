@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+if [[ ! $(type tmux) ]]; then
+	echo "TMUX isn not installed. Install and come back"
+	exit 1
+fi
+
+ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
